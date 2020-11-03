@@ -55,6 +55,14 @@ export default function App() {
             </li>
           );
         })}
+        {/* <button
+          className="border-indigo-400 border-2 rounded px-3 hover:bg-indigo-400 hover:text-indigo-100 transition transition-all duration-300 ease-in-out"
+          onClick={() => {
+            setHistory([Array(9).fill(null)]);
+          }}
+        >
+          Start a new Game
+        </button> */}
       </div>
     </>
   );
